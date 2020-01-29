@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.frameworkium.bdd.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.284 s <<< FAILURE! - in com.frameworkium.bdd.TestRunner
+test(com.frameworkium.bdd.TestRunner)  Time elapsed: 3.018 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.frameworkium.bdd.TestRunner.tearDownClass(TestRunner.java:40)
+

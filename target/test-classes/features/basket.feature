@@ -3,7 +3,7 @@
 
   Background:
     Given the customer user is logged in
-    And the user is on the homepage
+#    And the user is on the homepage
 
   @FT-1
   Scenario: I am able to add an item to my basket
