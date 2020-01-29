@@ -1,0 +1,7 @@
+pageModels\Page.class
+pageModels\BasketPage.class
+stepDefs\Basket.class
+stepDefs\login.class
+pageModels\ProductPage.class
+stepDefs\nav.class
+pageModels\HomePage.class
