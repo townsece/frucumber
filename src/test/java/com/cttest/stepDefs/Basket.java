@@ -60,6 +60,7 @@ public class Basket {
     @Then("the item should not be in the basket")
     public void theItemShouldNotBeInTheBasket() {
         Assert.assertNotNull(pageAPI.basketPage.getNoItems());
+        Assert.assertEquals("Should not contain items", "there are no more items in your cart", pageAPI.basketPage.getNoItems().getText().toLowerCase());
     }
 
 }

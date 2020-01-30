@@ -10,4 +10,5 @@ target/
 *.json
 *.json5
 *.yml
-*jar
+*.jar
+*.log
