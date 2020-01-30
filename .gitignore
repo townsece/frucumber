@@ -1,2 +1,11 @@
+# target folders
 allure/
+target/
+# web files
 *.html
+*.css
+*.js
+# data files
+*.json
+*.json5
+*.yml

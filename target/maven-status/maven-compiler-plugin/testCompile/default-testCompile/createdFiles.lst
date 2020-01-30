@@ -1,9 +1,0 @@
-com\cttest\stepDefs\nav.class
-com\frameworkium\bdd\TestRunner.class
-com\cttest\pageModels\ProductPage.class
-com\cttest\pageModels\ModalProductPage.class
-com\cttest\pageModels\HomePage.class
-com\cttest\stepDefs\login.class
-com\cttest\stepDefs\Basket.class
-com\cttest\stepDefs\PageAPI.class
-com\cttest\pageModels\BasketPage.class
