@@ -1,5 +1,6 @@
 package com.cttest.stepDefs;
 
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import io.qameta.allure.Step;
@@ -39,6 +40,26 @@ public class Basket {
     public void theItemShouldBeInTheBasket() {
         basketPageItemName = pageAPI.basketPage.getFirstBasketItemName();
         Assert.assertEquals(productPageItemName.toLowerCase(), basketPageItemName.toLowerCase());
+    }
+
+    @Step
+    @Given("I have an item in my basket")
+    public void iHaveAnItemInMyBasket() {
+        iClickOnAnItem();
+        iAddItToMyBasket();
+        navigateToTheBasketPage();
+    }
+
+    @Step
+    @When("I click remove item")
+    public void iClickRemoveItem() {
+        pageAPI.basketPage.clickDeleteFirstBasketItem();
+    }
+
+    @Step
+    @Then("the item should not be in the basket")
+    public void theItemShouldNotBeInTheBasket() {
+        Assert.assertNotNull(pageAPI.basketPage.getNoItems());
     }
 
 }

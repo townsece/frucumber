@@ -11,8 +11,23 @@ public class BasketPage extends BasePage<BasketPage> {
     @FindBy(css="a.label:nth-child(1)")
     WebElement firstBasketItemName;
 
+    @Visible
+    @FindBy(css=".remove-from-cart")
+    WebElement deleteFirstBasketItem;
+
+    @FindBy(css=".no-items")
+    WebElement noItems;
+
     public String getFirstBasketItemName() {
         return firstBasketItemName.getText();
+    }
+
+    public void clickDeleteFirstBasketItem() {
+        deleteFirstBasketItem.click();
+    }
+
+    public WebElement getNoItems() {
+        return noItems;
     }
 
     private static String URL = "http://172.18.200.76/index.php?controller=cart&action=show";

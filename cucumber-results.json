@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1245454000,
+              "duration": 1320776100,
               "status": "passed"
             },
             "line": 5,
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-01-30T10:35:34.947Z",
+        "start_timestamp": "2020-01-30T11:37:59.870Z",
         "line": 8,
         "name": "I am able to add an item to my basket",
         "description": "",
@@ -40,7 +40,7 @@
         "steps": [
           {
             "result": {
-              "duration": 927126300,
+              "duration": 980059800,
               "status": "passed"
             },
             "line": 9,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 1387332000,
+              "duration": 1343905100,
               "status": "passed"
             },
             "line": 10,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 540111300,
+              "duration": 478675600,
               "status": "passed"
             },
             "line": 11,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 32518700,
+              "duration": 30804000,
               "status": "passed"
             },
             "line": 12,
@@ -93,6 +93,88 @@
           },
           {
             "name": "@FT-1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 907325500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 19
+                }
+              ],
+              "location": "nav.theUserIsOnThePage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T11:38:09.957Z",
+        "line": 15,
+        "name": "I am able to remove an item from my basket",
+        "description": "",
+        "id": "ability-to-add-and-remove-items-from-the-basket--and-navigate-to-the-buy-page-from-the-basket;i-am-able-to-remove-an-item-from-my-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2702904200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have an item in my basket",
+            "match": {
+              "location": "Basket.iHaveAnItemInMyBasket()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66651400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click remove item",
+            "match": {
+              "location": "Basket.iClickRemoveItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the item should not be in the basket",
+            "match": {
+              "location": "Basket.theItemShouldNotBeInTheBasket()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@basket"
+          },
+          {
+            "name": "@FT-2"
           }
         ]
       }
