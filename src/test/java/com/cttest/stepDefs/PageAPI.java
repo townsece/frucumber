@@ -6,4 +6,5 @@ public class PageAPI {
     BasketPage basketPage;
     HomePage homePage;
     ProductPage productPage;
+    ModalProductPage modalProductPage;
 }

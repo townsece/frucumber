@@ -22,3 +22,40 @@
 2020-01-30 09:20:38.329 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
 2020-01-30 09:20:38.492 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.BasketPage' successfully loaded
 2020-01-30 09:20:39.318 [TestNG-PoolService-0] INFO  TestRunner - PASS  I am able to add an item to my basket
+2020-01-30 10:01:55.825 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 10:01:56.051 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 10:02:04.499 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 10:02:05.671 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 10:02:18.226 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 10:22:56.981 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 10:22:57.161 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 10:23:06.967 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 10:23:07.918 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 10:23:09.295 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ModalProductPage' successfully loaded
+2020-01-30 10:23:10.305 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 10:24:55.440 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 10:24:55.597 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 10:25:04.335 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 10:25:05.409 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 10:25:06.707 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ModalProductPage' successfully loaded
+2020-01-30 10:25:08.361 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 10:31:08.905 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 10:31:09.053 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 10:31:18.180 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 10:31:18.886 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 10:31:19.749 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ModalProductPage' successfully loaded
+2020-01-30 10:31:22.532 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 10:32:52.699 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 10:32:52.839 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 10:33:01.402 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 10:33:02.361 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 10:33:03.188 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ModalProductPage' successfully loaded
+2020-01-30 10:33:03.723 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.BasketPage' successfully loaded
+2020-01-30 10:33:04.576 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 10:35:27.220 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 10:35:27.345 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 10:35:36.190 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 10:35:37.123 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 10:35:38.511 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ModalProductPage' successfully loaded
+2020-01-30 10:35:39.051 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.BasketPage' successfully loaded
+2020-01-30 10:35:39.822 [TestNG-PoolService-0] INFO  TestRunner - PASS  I am able to add an item to my basket

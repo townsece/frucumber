@@ -17,11 +17,22 @@ public class ProductPage extends BasePage<ProductPage> {
     @FindBy(css="#_desktop_cart")
     WebElement basketButton;
 
-    public void addToBasket() {
+    @Visible
+    @FindBy(css=".h1")
+    WebElement itemName;
+
+
+    public ModalProductPage addToBasket() {
         addToBasket.click();
+        return (ModalProductPage)new ModalProductPage().get();
     }
+
     public BasketPage clickBasketButton() {
-        addToBasket.click();
+        basketButton.click();
         return new BasketPage().get();
+    }
+
+    public String getItemName() {
+        return itemName.getText();
     }
 }

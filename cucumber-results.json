@@ -5,16 +5,16 @@
       {
         "line": 4,
         "name": "",
-        "description": "//    Given the customer user is logged in",
+        "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1271999500,
+              "duration": 1245454000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "the user is on the homepage",
             "match": {
               "arguments": [
@@ -30,8 +30,8 @@
         ]
       },
       {
-        "start_timestamp": "2020-01-30T09:20:36.057Z",
-        "line": 9,
+        "start_timestamp": "2020-01-30T10:35:34.947Z",
+        "line": 8,
         "name": "I am able to add an item to my basket",
         "description": "",
         "id": "ability-to-add-and-remove-items-from-the-basket--and-navigate-to-the-buy-page-from-the-basket;i-am-able-to-add-an-item-to-my-basket",
@@ -40,10 +40,10 @@
         "steps": [
           {
             "result": {
-              "duration": 997452400,
+              "duration": 927126300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click on an item",
             "match": {
               "location": "Basket.iClickOnAnItem()"
@@ -52,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 82870100,
+              "duration": 1387332000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "add it to my basket",
             "match": {
               "location": "Basket.iAddItToMyBasket()"
@@ -64,10 +64,10 @@
           },
           {
             "result": {
-              "duration": 79545600,
+              "duration": 540111300,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "if I navigate to the basket page",
             "match": {
               "location": "Basket.navigateToTheBasketPage()"
@@ -76,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 198500,
+              "duration": 32518700,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "the item should be in the basket",
             "match": {
               "location": "Basket.theItemShouldBeInTheBasket()"

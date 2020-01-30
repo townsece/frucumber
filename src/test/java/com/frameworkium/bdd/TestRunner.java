@@ -33,15 +33,15 @@ public class TestRunner implements ITest {
     private TestNGCucumberRunner testNGCucumberRunner;
     private ThreadLocal<String> scenarioName = new ThreadLocal<>();
 
+    @BeforeSuite(alwaysRun = true)
+    public void setUpSuite() {
+        UITestLifecycle.get().beforeSuite();
+    }
+
     @BeforeClass(alwaysRun = true)
     public void setUpClass() {
         WebDriverManager.chromedriver().setup();
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
-    }
-
-    @BeforeSuite(alwaysRun = true)
-    public void setUpSuite() {
-        UITestLifecycle.get().beforeSuite();
     }
 
     @BeforeMethod(alwaysRun = true)
@@ -58,15 +58,15 @@ public class TestRunner implements ITest {
         testNGCucumberRunner.runScenario(pickleEvent.getPickleEvent());
     }
 
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return testNGCucumberRunner.provideScenarios();
+    }
+
     @AfterMethod
     public void afterMethod(ITestResult result) {
         UITestLifecycle.get().afterTestMethod();
         logResult(result);
-    }
-
-    @DataProvider(parallel = true)
-    public Object[][] scenarios() {
-        return testNGCucumberRunner.provideScenarios();
     }
 
     @AfterClass(alwaysRun = true)
