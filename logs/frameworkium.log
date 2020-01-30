@@ -1,0 +1,4 @@
+2020-01-30 08:52:44.706 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 08:55:44.669 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 08:55:44.833 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 08:55:53.894 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket

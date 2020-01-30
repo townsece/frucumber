@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.cttest.stepDefs.login.theUserIsLoggedIn(login.java:13)\r\n\tat ✽.the customer user is logged in(file:src/test/resources/features/basket.feature:5)\r\n",
+              "duration": 3153300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "the customer user is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "customer",
+                  "offset": 4
+                }
+              ],
+              "location": "login.theUserIsLoggedIn(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T08:55:52.955Z",
+        "line": 9,
+        "name": "I am able to add an item to my basket",
+        "description": "",
+        "id": "ability-to-add-and-remove-items-from-the-basket--and-navigate-to-the-buy-page-from-the-basket;i-am-able-to-add-an-item-to-my-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click on an item",
+            "match": {
+              "location": "Basket.iClickOnAnItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "add it to my basket",
+            "match": {
+              "location": "Basket.iAddItToMyBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "if I navigate to the basket page",
+            "match": {
+              "location": "Basket.navigateToTheBasketPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the item should be in the basket",
+            "match": {
+              "location": "Basket.theItemShouldBeInTheBasket()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@basket"
+          },
+          {
+            "name": "@FT-1"
+          }
+        ]
+      }
+    ],
+    "name": "Ability to add and remove items from the basket, and navigate to the buy page from the basket",
+    "description": "",
+    "id": "ability-to-add-and-remove-items-from-the-basket--and-navigate-to-the-buy-page-from-the-basket",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/basket.feature",
+    "tags": [
+      {
+        "name": "@basket",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

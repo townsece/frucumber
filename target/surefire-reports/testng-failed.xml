@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" data-provider-thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" parallel="classes" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.frameworkium.bdd.TestRunner">
+        <methods>
+          <include name="setTestName"/>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="afterMethod"/>
+          <include name="tearDownClass"/>
+          <include name="scenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.frameworkium.bdd.TestRunner -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
