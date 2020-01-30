@@ -10,4 +10,4 @@ target/
 *.json
 *.json5
 *.yml
-.allure/*/*.jar
+*jar
