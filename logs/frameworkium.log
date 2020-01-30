@@ -2,3 +2,23 @@
 2020-01-30 08:55:44.669 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
 2020-01-30 08:55:44.833 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
 2020-01-30 08:55:53.894 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 08:58:59.115 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 08:58:59.260 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 08:59:08.926 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 09:00:27.584 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 09:00:27.715 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 09:00:46.834 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 09:02:26.279 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 09:02:26.423 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 09:02:36.945 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 09:02:49.280 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 09:18:58.899 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 09:18:59.081 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 09:19:09.529 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 09:19:21.986 [TestNG-PoolService-0] ERROR TestRunner - FAIL  I am able to add an item to my basket
+2020-01-30 09:20:28.477 [TestNG-PoolService-0] INFO  TestRunner - START I am able to add an item to my basket
+2020-01-30 09:20:28.612 [TestNG-PoolService-0] DEBUG AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2020-01-30 09:20:37.327 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.HomePage' successfully loaded
+2020-01-30 09:20:38.329 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.ProductPage' successfully loaded
+2020-01-30 09:20:38.492 [TestNG-PoolService-0] DEBUG AllureLogger - Logged to allure: Page 'com.cttest.pageModels.BasketPage' successfully loaded
+2020-01-30 09:20:39.318 [TestNG-PoolService-0] INFO  TestRunner - PASS  I am able to add an item to my basket

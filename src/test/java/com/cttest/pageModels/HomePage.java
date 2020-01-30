@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends BasePage<HomePage> {
     public static final String URL = "http://172.18.200.76/index.php";
 
-    @Visible
     @FindBy(css="#q")
     WebElement searchBox;
 

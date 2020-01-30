@@ -5,33 +5,32 @@
       {
         "line": 4,
         "name": "",
-        "description": "",
+        "description": "//    Given the customer user is logged in",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.cttest.stepDefs.login.theUserIsLoggedIn(login.java:13)\r\n\tat ✽.the customer user is logged in(file:src/test/resources/features/basket.feature:5)\r\n",
-              "duration": 3153300,
-              "status": "failed"
+              "duration": 1271999500,
+              "status": "passed"
             },
-            "line": 5,
-            "name": "the customer user is logged in",
+            "line": 6,
+            "name": "the user is on the homepage",
             "match": {
               "arguments": [
                 {
-                  "val": "customer",
-                  "offset": 4
+                  "val": "home",
+                  "offset": 19
                 }
               ],
-              "location": "login.theUserIsLoggedIn(String)"
+              "location": "nav.theUserIsOnThePage(String)"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-01-30T08:55:52.955Z",
+        "start_timestamp": "2020-01-30T09:20:36.057Z",
         "line": 9,
         "name": "I am able to add an item to my basket",
         "description": "",
@@ -41,8 +40,8 @@
         "steps": [
           {
             "result": {
-              "duration": 7700,
-              "status": "skipped"
+              "duration": 997452400,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click on an item",
@@ -53,8 +52,8 @@
           },
           {
             "result": {
-              "duration": 2300,
-              "status": "skipped"
+              "duration": 82870100,
+              "status": "passed"
             },
             "line": 11,
             "name": "add it to my basket",
@@ -65,8 +64,8 @@
           },
           {
             "result": {
-              "duration": 2100,
-              "status": "skipped"
+              "duration": 79545600,
+              "status": "passed"
             },
             "line": 12,
             "name": "if I navigate to the basket page",
@@ -77,8 +76,8 @@
           },
           {
             "result": {
-              "duration": 2100,
-              "status": "skipped"
+              "duration": 198500,
+              "status": "passed"
             },
             "line": 13,
             "name": "the item should be in the basket",

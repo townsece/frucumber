@@ -16,7 +16,7 @@ public class nav {
     public void theUserIsOnThePage(String pageString) {
         switch(pageString) {
             case "home":
-                pageAPI.homePage = new HomePage().get();
+                pageAPI.homePage = new HomePage().open();
         }
     }
 }

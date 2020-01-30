@@ -2,8 +2,8 @@
   Feature: Ability to add and remove items from the basket, and navigate to the buy page from the basket
 
   Background:
-    Given the customer user is logged in
-#    And the user is on the homepage
+//    Given the customer user is logged in
+    Given the user is on the homepage
 
   @FT-1
   Scenario: I am able to add an item to my basket

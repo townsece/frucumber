@@ -10,7 +10,7 @@ public class ProductPage extends BasePage<ProductPage> {
     private static final String URL = "http://172.18.200.76/index.php?id_product=1&id_product_attribute=1&rewrite=faded-short-sleeves-tshirt&controller=product#/1-size-s/13-color-orange";
 
     @Visible
-    @FindBy(css=".add")
+    @FindBy(css="button.btn-primary")
     WebElement addToBasket;
 
     @Visible
