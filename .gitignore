@@ -1,5 +1,6 @@
 # target folders
 allure/
+.allure/
 target/
 # web files
 *.html
@@ -9,3 +10,4 @@ target/
 *.json
 *.json5
 *.yml
+.allure/*/*.jar
